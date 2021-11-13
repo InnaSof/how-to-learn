@@ -317,12 +317,9 @@ color: #2f80ed;
   padding: 0;
 }
 
-.logo {
+.logo_place_footer {
   width: 183px;
   height: 35px;
-}
-
-.logo_place_footer {
   position: absolute;
   top: 0;
   left: 0;

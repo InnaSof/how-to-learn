@@ -40,6 +40,7 @@
   line-height: 96px;
   width: 730px;
   left: 64px;
+  z-index: 2;
 }
 
 .header__subtitle {
@@ -51,6 +52,7 @@
   bottom: 30px;
   left: 64px;
   margin: 0;
+  z-index: 3;
 }
 
 .header__link {
@@ -81,13 +83,15 @@
 .description {
   display: flex;
   position: relative;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .two-columns {
   display: flex;
   justify-content: space-between;
   width: 80%;
-  margin: 100px auto;
+  margin: 0 auto;
 }
 
 .two-columns__brief {
@@ -365,13 +369,6 @@
  list-style-type: none;
  margin: 0;
  padding: 0;
-}
-
-.footer__column_content_social_heading {
-  color: #ffffff;
-  line-height: 30px;
-  font-size: 18px;
-  margin: 0 0 20px 0;
 }
 
 .footer__social-icon {

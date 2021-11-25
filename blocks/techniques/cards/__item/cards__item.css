@@ -1,0 +1,10 @@
+.cards__item {
+    width: 240px;
+    padding-top: 60px;
+    margin: 0;
+  }
+  
+  .cards__item:last-of-type {
+    margin-left: 100px;
+    margin-right: auto;
+  }

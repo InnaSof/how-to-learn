@@ -1,12 +1,12 @@
 .footer__column-link {
-    text-decoration: none;
-    color: #ffffff;
-    line-height: 30px;
-    font-size: 18px;
-  }
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 30px;
+  font-size: 18px;
+}
   
-  .footer__column-link:hover {
-    color: #2f80ed; /* Цвет ссылки, на которую пользователь навел курсор */
-    opacity: 0.5;
-    transition: ease; 
-  }
+.footer__column-link:hover {
+  color: #2f80ed; /* Цвет ссылки, на которую пользователь навел курсор */
+  opacity: 0.5;
+  transition: ease; 
+}
